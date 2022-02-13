@@ -7,9 +7,7 @@ const GlobalStyles = createGlobalStyle`
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
     }
-    body{
-        background-color: #B0CFDD;
-    }
+    
 `
 
 export default GlobalStyles;
