@@ -1,9 +1,13 @@
 import React from "react";
+import GlobalStyles from "../styles/GlobalStyles";
+import Header from "../components/Header";
 
-const About = ()=>{
-    return(
+const About = () => {
+    return (
         <>
-        <h1>Sobre</h1></>
+            <GlobalStyles />
+            <Header />
+        </>
     )
 }
 

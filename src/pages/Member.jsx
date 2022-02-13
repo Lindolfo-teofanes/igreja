@@ -1,9 +1,13 @@
 import React from "react";
+import Header from "../components/Header";
+import GlobalStyles from "../styles/GlobalStyles";
 
 const Member = ()=>{
     return(
         <>
-        <h1>Membro</h1></>
+        <GlobalStyles />
+        <Header />
+        </>
     )
 }
 
